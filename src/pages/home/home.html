@@ -1,24 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Login Screen
+      Home
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <ion-list>
-    <ion-item>
-      <ion-label floating>Email</ion-label>
-      <ion-input type="text" value=""></ion-input>
-    </ion-item>
-    <ion-item>
-      <ion-label floating>Password</ion-label>
-      <ion-input type="text" value=""></ion-input>    
-    </ion-item>
-  </ion-list>
-
-  <button ion-button outline round>Login</button>
+  Welcome to this website!
+  <ion-grid>
+      <ion-row>
+        <ion-col col-6>
+          If you are a returning user:
+        </ion-col>
+        <ion-col col-6>
+          If you would like to make an account:
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-6>
+          <button ion-button full outline round (click)="navigateToLogin()">Login</button>
+        </ion-col>
+        <ion-col col-6>
+          <button ion-button full outline round (click)="navigateToRegistration()">Registration</button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
 </ion-content> 
+
 
 

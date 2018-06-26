@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>
+            Login Screen
+        </ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+            <ion-label floating>Email</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label floating>Password</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+    </ion-list>
+
+    <button ion-button outline round (click)="navigateToProfile()">Login</button>
+    <br><br><br><br>
+    New to the platform? Register here:
+    <button ion-button outline round (click)="navigateToRegistration()">Register</button>
+</ion-content>

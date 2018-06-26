@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Registration Screen
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating>First Name</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label floating>Last Name</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="text" value=""></ion-input>
+    </ion-item>
+  </ion-list>
+  <button ion-button outline round (click)="navigateToProfile()">Register</button>
+  <br><br><br><br>
+  Already a user? Login here:
+  <button ion-button outline round (click)="navigateToLogin()">Login</button>
+</ion-content>

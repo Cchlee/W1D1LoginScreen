@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Profile Screen
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Welcome ________________! 
+  <div text-center><h1>Recent purchases:</h1></div>
+  <ion-content class="card-background-page">
+      <ion-card>
+        <img style="width: 1200px; height: 500px;" src="../../assets/imgs/waterdrop.jpg"/>
+        <div class="card-title">Raindrop</div>
+        <div class="card-subtitle">$10</div>
+      </ion-card>    
+      <ion-card>
+          <img style="width: 1200px; height: 500px;" src="../../assets/imgs/droptop.jpg"/>
+          <div class="card-title">Droptop</div>
+          <div class="card-subtitle">$100</div>
+        </ion-card>    
+    </ion-content>
+  <button ion-button outline round (click)="navigateToHome()">Logout</button>
+</ion-content>
