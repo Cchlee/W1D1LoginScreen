@@ -4,23 +4,26 @@ import { ProfilePage } from '../profile/profile';
 import { RegistrationPage } from '../registration/registration';
 
 @Component({
-  selector: 'page-login',
-  templateUrl: 'login.html'
+    selector: 'page-login',
+    templateUrl: 'login.html'
 })
 export class LoginPage {
 
-  constructor(public navCtrl: NavController) {
+    public email: string;
+    public password: string;
 
-  }
+    constructor(public navCtrl: NavController) {
+        this.email = "...";
+    }
 
-  navigateToProfile(){
-      console.log("Going to Profile");
-      this.navCtrl.push(ProfilePage);
-  }
-  
-  navigateToRegistration(){
-    console.log("Navigating");
-    this.navCtrl.push(RegistrationPage);
-  }
+    navigateToProfile() {
+        console.log("Going to Profile");
+        this.navCtrl.push(ProfilePage);
+    }
+
+    navigateToRegistration() {
+        console.log("Navigating");
+        this.navCtrl.push(RegistrationPage);
+    }
 
 }

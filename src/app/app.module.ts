@@ -9,6 +9,10 @@ import { HomePage } from '../pages/home/home';
 import { LoginPage } from '../pages/login/login';
 import { ProfilePage } from '../pages/profile/profile';
 import { RegistrationPage } from '../pages/registration/registration';
+import { ProvidersPage } from '../pages/providers/providers';
+import { Chef1Page } from '../pages/chef1/chef1';
+import { Chef2Page } from '../pages/chef2/chef2';
+import { Chef3Page } from '../pages/chef3/chef3';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { RegistrationPage } from '../pages/registration/registration';
     HomePage,
     LoginPage,
     ProfilePage,
-    RegistrationPage
+    RegistrationPage,
+    ProvidersPage,
+    Chef1Page,
+    Chef2Page,
+    Chef3Page
   ],
   imports: [
     BrowserModule,
@@ -28,7 +36,11 @@ import { RegistrationPage } from '../pages/registration/registration';
     HomePage,
     LoginPage,
     ProfilePage,
-    RegistrationPage
+    RegistrationPage,
+    ProvidersPage,
+    Chef1Page,
+    Chef2Page,
+    Chef3Page
   ],
   providers: [
     StatusBar,

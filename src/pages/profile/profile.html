@@ -6,8 +6,12 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Welcome ________________! 
+<ion-content padding class="colors">
+    Welcome ________________! 
+  <p>
+    Click here to look at the providers:
+  </p>
+  <button ion-button outline round color="dark" (click)="navigateToProviders()">Providers</button>
   <div text-center><h1>Recent purchases:</h1></div>
   <ion-content class="card-background-page">
       <ion-card>
@@ -21,5 +25,5 @@
           <div class="card-subtitle">$100</div>
         </ion-card>    
     </ion-content>
-  <button ion-button outline round (click)="navigateToHome()">Logout</button>
+  <button ion-button outline round color="dark" (click)="navigateToHome()">Logout</button>
 </ion-content>

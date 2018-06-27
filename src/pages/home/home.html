@@ -6,8 +6,9 @@
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Welcome to this website!
+<ion-content padding class="colors">
+  <div text-center><h1>Welcome to this Recishare</h1></div>
+  <div text-center><h2>An app where you can buy and sell recipes</h2></div>
   <ion-grid>
       <ion-row>
         <ion-col col-6>
@@ -19,10 +20,10 @@
       </ion-row>
       <ion-row>
         <ion-col col-6>
-          <button ion-button full outline round (click)="navigateToLogin()">Login</button>
+          <button ion-button full outline color="dark" round (click)="navigateToLogin()">Login</button>
         </ion-col>
         <ion-col col-6>
-          <button ion-button full outline round (click)="navigateToRegistration()">Registration</button>
+          <button ion-button full outline color="dark" round (click)="navigateToRegistration()">Registration</button>
         </ion-col>
       </ion-row>
     </ion-grid>
