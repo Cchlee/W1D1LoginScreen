@@ -13,6 +13,8 @@ import { ProvidersPage } from '../pages/providers/providers';
 import { Chef1Page } from '../pages/chef1/chef1';
 import { Chef2Page } from '../pages/chef2/chef2';
 import { Chef3Page } from '../pages/chef3/chef3';
+import { PaymentPage } from '../pages/payment/payment';
+import { PaymenthistoryPage } from '../pages/paymenthistory/paymenthistory';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { Chef3Page } from '../pages/chef3/chef3';
     ProvidersPage,
     Chef1Page,
     Chef2Page,
-    Chef3Page
+    Chef3Page,
+    PaymentPage,
+    PaymenthistoryPage
   ],
   imports: [
     BrowserModule,
@@ -40,7 +44,9 @@ import { Chef3Page } from '../pages/chef3/chef3';
     ProvidersPage,
     Chef1Page,
     Chef2Page,
-    Chef3Page
+    Chef3Page,
+    PaymentPage,
+    PaymenthistoryPage
   ],
   providers: [
     StatusBar,

@@ -3,6 +3,7 @@ import { NavController } from 'ionic-angular';
 import { ProfilePage } from '../profile/profile';
 
 import { Events } from 'ionic-angular';
+import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-registration',
@@ -16,5 +17,9 @@ export class RegistrationPage {
   navigateToProfile(){
     console.log("Going to Profile");
     this.navCtrl.push(ProfilePage);
+  }
+
+  navigateToLogin(){
+    this.navCtrl.push(LoginPage);
   }
 }

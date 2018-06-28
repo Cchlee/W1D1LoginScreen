@@ -1,4 +1,8 @@
-page-profile {
+page-paymenthistory {
+    .scroll-content {
+        background-color: map-get($colors, light);
+    }
+
     .card-background-page {
 
         ion-card {
@@ -12,7 +16,7 @@ page-profile {
           font-size: 2.0em;
           width: 100%;
           font-weight: bold;
-          color: #fff;
+          color: white;
         }
       
         .card-subtitle {
@@ -24,4 +28,5 @@ page-profile {
         }
       
       }
+
 }

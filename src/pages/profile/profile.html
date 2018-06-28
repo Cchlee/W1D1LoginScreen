@@ -12,18 +12,9 @@
     Click here to look at the providers:
   </p>
   <button ion-button outline round color="dark" (click)="navigateToProviders()">Providers</button>
-  <div text-center><h1>Recent purchases:</h1></div>
-  <ion-content class="card-background-page">
-      <ion-card>
-        <img style="width: 1200px; height: 500px;" src="../../assets/imgs/waterdrop.jpg"/>
-        <div class="card-title">Raindrop</div>
-        <div class="card-subtitle">$10</div>
-      </ion-card>    
-      <ion-card>
-          <img style="width: 1200px; height: 500px;" src="../../assets/imgs/droptop.jpg"/>
-          <div class="card-title">Droptop</div>
-          <div class="card-subtitle">$100</div>
-        </ion-card>    
-    </ion-content>
+  <p>
+      Click here to view your payment history
+    </p>
+  <button ion-button outline round color="dark" (click)="navigateToPayment()">Payment</button>
   <button ion-button outline round color="dark" (click)="navigateToHome()">Logout</button>
 </ion-content>
